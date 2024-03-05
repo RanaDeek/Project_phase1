@@ -1,3 +1,33 @@
 .nav-link.active{
     border-bottom: 2px solid black;
 }
+.image{
+    width: 30px;
+    height: 30px;
+}
+li .nav-link{
+    font-size: 18px;
+    font-weight: bold;
+
+    color: rgb(184, 64, 24);
+
+}
+.navbar_name{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(184, 64, 24);
+    text-decoration: none;
+}
+
+.nav-item1{
+    padding-top: 5px;
+}
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 5px;
+}
+.navbar{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the values as needed */
+}
