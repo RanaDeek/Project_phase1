@@ -7,7 +7,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <img src={pic} alt="Logo" className="image" />
-                <Link className="navbar_name" to='/' >Fashion Shop</Link>
+                <Link className="navbar_name" to='/' >AL Deek Shop</Link>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li className="nav-item">
