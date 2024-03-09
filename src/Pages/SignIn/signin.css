@@ -1,0 +1,25 @@
+.form-control {
+    width: 30% !important;
+}
+
+.form-text {
+    font-size: 10px;
+}
+
+form {
+    padding: 10px;
+}
+
+.form-check {
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.btn-primary{
+    background-color: rgb(184, 64, 24);
+    color: #fff;
+    height: 35px;
+    border: rgb(184, 64, 24);
+    border-radius: 8px;
+    width: 80px;
+}

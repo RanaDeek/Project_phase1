@@ -1,0 +1,26 @@
+select {
+    height: 30px;
+    border-radius: 5px;
+}
+
+.email {
+    width: 40%;
+}
+
+.form-check-label {
+    margin-left: 5px;
+    width: 150px;
+    font-size: 12px;
+}
+.gender{
+    margin-left: -10px;
+}
+
+.btn-primary{
+    background-color: rgb(184, 64, 24);
+    color: #fff;
+    height: 35px;
+    border: rgb(184, 64, 24);
+    border-radius: 8px;
+    width: 80px;
+}

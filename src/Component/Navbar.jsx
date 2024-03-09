@@ -23,10 +23,10 @@ function Navbar() {
                     </ul>
                     <ul className="d-flex list-unstyled">
                         <li className="nav-item1">
-                            <Link className='nav-link text-decoration-none' to="/SignIn">SignIn</Link>
+                            <Link className='nav-link1' to="/SignIn">Sign In</Link>
                         </li>
                         <li className="nav-item1">
-                            <Link className='nav-link text-decoration-underline' to="/SignUp">SignUp?</Link>
+                            <Link className='nav-link1 text-white' to="/SignUp">Sign Up?</Link>
                         </li>
                     </ul>
 
