@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('src/assets/6.jpg');
+    background-image: ('src/assets/6.jpg');
     background-size: cover;
     background-position: center;
     z-index: 999;
