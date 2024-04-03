@@ -2,14 +2,18 @@ import React from 'react'
 import Navbar from '../Component/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from './../Component/Footer';
-
+import './root.css'
 function root() {
   return (
     <>
-    <Navbar/>
-    <Outlet />
-    <Footer />
-    </>
+    <div className='bodyss'>
+      <Navbar/>
+      <div className='con'>
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
+   </>
   )
 }
 

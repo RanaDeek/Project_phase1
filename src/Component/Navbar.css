@@ -1,5 +1,6 @@
 .nav-link.active {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(184, 64, 24);
+    color: rgb(184, 64, 24) !important;
 }
 
 .image {
@@ -10,6 +11,7 @@
 li .nav-link {
     font-size: 18px;
     font-weight: 400;
+    color: black;
 }
 
 .navbar_name {
@@ -31,10 +33,10 @@ li .nav-link {
 }
 
 .nav-item1:last-of-type {
-    background-color: rgb(184, 64, 24);    
+    background-color: rgb(184, 64, 24);
 }
 
-.nav-link1{
+.nav-link1 {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
@@ -50,6 +52,112 @@ li .nav-link {
 }
 
 .navbar {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Adjust the values as needed */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    height: 80px !important;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    padding-top: 70px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.row h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(164, 163, 163);
+}
+
+.click {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.click {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: inherit !important;
+    cursor: pointer;
+    padding: 0;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    color: rgb(184, 64, 24);
+}
+
+body:not(.dark) {
+    background-color: #e1e0e0 !important;
+    color: rgb(184, 64, 24);
+}
+
+.navbar:not(.dark) {
+    background-color: #e1e0e0 !important;
+    color: rgb(184, 64, 24);
+}
+
+.click .mode {
+    width: 25px;
+    height: 25px;
+    color: rgb(184, 64, 24);
+}
+
+.dark {
+    background-color: #333333 !important;
+    color: rgb(184, 64, 24);
+}
+
+
+
+.dark button {
+    color: rgb(184, 64, 24);
+}
+
+.dark .navbar {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+.dark .nav-link {
+    color: #ffffff !important;
+}
+
+.logout {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    cursor: pointer;
+    padding: 0;
+}
+
+.icon {
+    background-color: transparent !important;
+    ;
 }

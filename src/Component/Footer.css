@@ -1,0 +1,23 @@
+footer {
+    background-color: rgb(184, 64, 24);
+    height: 400px !important;
+}
+
+footer .contact {
+    width: 480% !important;
+    margin-left: -400px;
+    gap: 40px;
+}
+.line {
+    width: 90%;
+  border-top: 1px solid white;
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+footer .row a{
+    text-decoration: none;
+}
+.desc2 p{
+}
+
+
